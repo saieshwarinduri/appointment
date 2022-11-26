@@ -1,0 +1,41 @@
+.listAppointmentContainer {
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  list-style-type: none;
+  width: 170px;
+  height: 70px;
+  padding: 10px;
+  margin: 6px;
+}
+.listItemTitle {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding-left: 0px;
+  align-self: center;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.titleStarButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.starButton {
+  background-color: transparent;
+  border: none;
+  align-self: center;
+}
+.starimage {
+  height: 18px;
+}
+.dateClass {
+  font-size: 9px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #868893;
+}
